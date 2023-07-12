@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font: italic bold 3em serif
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a::before {
+            content: '☞';
+        }
+
+        a::after {
+            content: '☜';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <p>Para escutar uma música fera acesse <a href="https://youtu.be/oWf6pWCfj-A" target="
+        ">https://youtu.be/oWf6pWCfj-A</a></p>
+    <p>Para assisti uma ótima live acesse <a href="https://twitch.tv/loud_coringa" target="_blank">https://twitch.tv/loud_coringa</a></p>
+    <p>Para aprender tudo sobre HTML e CSS3 acesse <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank">Curso completo e atual de HTML5 e CSS3 - Módulo 1 de 5</a></p>
+
+</body>
+</html>
