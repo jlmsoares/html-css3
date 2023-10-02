@@ -9,25 +9,35 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        thead {
-            background-color: gray;
-            color: white;
-        }
-
         table {
             border-collapse: collapse;
         }
 
         th, td {
-            padding: 10px;
+            padding: 8px;
             border: 1px solid black;
         }
 
-        .num {
+        thead {
+            background-color: gray;
+            color: white;
+        }
+
+        .media {
             background-color: gray;
             color: white;
             padding: 5px;
             text-align: left;
+        }
+
+        .soma {
+            font-weight: bolder;
+            background-color: gray;
+            color: white;
+        }
+
+        .centro {
+            text-align: center;
         }
     </style>
 </head>
@@ -41,56 +51,56 @@
                 <th rowspan="2">Média</th>
             </tr>
             <tr>
-                <td>Nota 1</td>
-                <td>Nota 2</td>
+                <td><strong>Nota 1</strong></td>
+                <td><strong>Nota 2</strong></td>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <th rowspan="4">Exatas</th>
                 <td>Matemática</td>
-                <td>00.00</td>
-                <td>00.00</td>
-                <td>00.00</td>
+                <td class="centro">0.0</td>
+                <td class="centro">0.0</td>
+                <td class="centro">0.0</td>
             </tr>
             <tr>
                 <td>Física</td>
-                <td>00.00</td>
-                <td>00.00</td>
-                <td>00.00</td>
+                <td class="centro">0.0</td>
+                <td class="centro">0.0</td>
+                <td class="centro">0.0</td>
             </tr>
             <tr>
                 <td>Química</td>
-                <td>00.00</td>
-                <td>00.00</td>
-                <td>00.00</td>
+                <td class="centro">0.0</td>
+                <td class="centro">0.0</td>
+                <td class="centro">0.0</td>
             </tr>
             <tr>
                 <td>Biologia</td>
-                <td>00.00</td>
-                <td>00.00</td>
-                <td>00.00</td>
+                <td class="centro">0.0</td>
+                <td class="centro">0.0</td>
+                <td class="centro">0.0</td>
             </tr>
             <tr>
-                <th colspan="4" class="num">Média de Exatas</th>
-                <td class="num">00.00</td>
+                <th colspan="4" class="media">Média de Exatas</th>
+                <td class="soma centro">0.0</td>
             </tr>
             <tr>
                 <th rowspan="2">Humanas</th>
                 <td>História</td>
-                <td>00.00</td>
-                <td>00.00</td>
-                <td>00.00</td>
+                <td class="centro">0.0</td>
+                <td class="centro">0.0</td>
+                <td class="centro">0.0</td>
             </tr>
             <tr>
                 <td>Geografia</td>
-                <td>00.00</td>
-                <td>00.00</td>
-                <td>00.00</td>
+                <td class="centro">0.0</td>
+                <td class="centro">0.0</td>
+                <td class="centro">0.0</td>
             </tr>
             <tr>
-                <th colspan="4" class="num">Média de Humanas</th>
-                <td class="num">00.00</td>
+                <th colspan="4" class="media">Média de Humanas</th>
+                <td class="soma centro">0.0</td>
             </tr>
         </tbody>
     </Table>
